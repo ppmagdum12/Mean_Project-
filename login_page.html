@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Login Here</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center bg-dark sticky-top" style="height: 60px;">
+            <div class="col-2 text-light" style="font-size: 24px;">
+                HOME
+            </div>
+
+        </div>
+        <div class="row bg-primary justify-content-center" style="height:120vh;      
+        background: linear-gradient(to right, #ff105f,#ffad06);">
+
+            <div id="image" class="col-6 col-md-12 bg-secondary">
+
+                <div class="form">
+                    <div style=>
+                        <h1 style="text-align: center;">Lgin Page</h1>
+                    </div>
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="user()">User</button>
+                        <button type="button" class="toggle-btn" onclick="admin()">Admin</button>
+                    </div>
+
+                    <form action="" id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <div style="font-size: 12px; color:#777;">
+                            <input type="checkbox" class="check-box">Remember Password</div>
+                        <button type="submit" class="SUBMIT-BTN">Log In</button>
+                    </form>
+
+                    <form action="" id="register" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <div style="font-size: 12px; color:#777;">
+                            <input type="checkbox" class="check-box">Remember Password</div>
+                        <button type="submit" class="SUBMIT-BTN">Log In</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
