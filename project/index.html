@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="login.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--
+             <div class="row align-items-center bg-dark sticky-top" style="height: 60px;">
+            <div class="col-2 text-light" style="font-size: 24px;">
+                HOME
+            </div>
+        -->
+
+
+    </div>
+    <div class="row bg-primary justify-content-center" style="height:120vh;      
+            background: linear-gradient(to right, #ff105f,#ffad06);">
+
+        <div class="col-md-3 col-6 bg-primary text-light d-flex flex-column align-items-center justify-content-center">
+            <h3 style="color:white;">Welcome Back!</h3>
+            <P class="text-light">
+                To Keep Connnected With Us Please <br>
+                Login With Your Personal Info.
+            </P>
+        </div>
+        <div id="image" class="col-6 col-md-9 bg-secondary">
+
+            <div class="form">
+                <div style=>
+                    <h1 style="text-align: center;margin-top: 5px; color: red;">
+                        Login Here</h1>
+                </div>
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="user()">User</button>
+                    <button type="button" class="toggle-btn" onclick="admin()">Admin</button>
+                </div>
+
+                <form action="" onsubmit="return validateuser()" id="login" class="input-group">
+                    <input type="text" class="input-field" id="userid" placeholder="User Id">
+                    <span id="userid1" style="color: red;font-size: 12px;"></span>
+                    <input type="password" id="password" class="input-field" placeholder="Enter Password">
+                    <span id="password1" style="color: red;font-size: 12px;"></span>
+                    <div style="font-size: 12px; color:#777;">
+                        <input type="checkbox" class="check-box">Remember Password</div>
+                    <button type="submit" class="SUBMIT-BTN">Log In</button>
+                    <div>
+                        <p class="fpass"><a href="http://127.0.0.1:5500/images/forgotpaaword.html">Sign Up</a></p>
+                        <p class="fpass"><a href="#">Forgot Password</a></p>
+                    </div>
+
+
+
+
+                </form>
+
+                <form action="" onsubmit="return validateadmin()" id="register" class="input-group">
+                    <input type="text" id="userid2" class="input-field" placeholder="Admin Id">
+                    <span id="userid3" style="color: red;font-size: 12px;"></span>
+                    <input type="password" id="password2" class="input-field" placeholder="Enter Password">
+                    <span id="password3" style="color: red;font-size: 12px;"></span>
+                    <div style="font-size: 12px; color:#777;">
+                        <input type="checkbox" class="check-box">Remember Password</div>
+                    <button type="submit" class="SUBMIT-BTN">Log In</button>
+                    <div>
+                        <p class="fpass"><a href="http://127.0.0.1:5500/images/forgotpaaword.html">Sign Up</a></p>
+                        <p class="fpass"><a href="#">Forgot Password</a></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>

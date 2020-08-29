@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot_Password</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to right, #ff105f, #ffad06);
+
+        }
+
+        .form-container {
+
+
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container .form-wrap {
+            background: #ffff;
+            width: 40%;
+            padding: 15px 20px;
+            border-bottom: 5px;
+        }
+
+        .form-container .form-wrap h2 {
+            text-align-last: center;
+
+        }
+
+        .form-container .form-wrap .formbox {
+            margin: 0 0 0 15px;
+        }
+
+        .form-container .form-wrap .formbox input[type="text"] {
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid black;
+            width: 100%;
+        }
+
+        .submit {
+            display: flex;
+            justify-content: center;
+        }
+
+        .submit .submit_btn {
+            height: 35px;
+            margin-top: 5px;
+            cursor: pointer;
+            padding: 2px;
+            outline: none;
+            border: 0px;
+            border-radius: 15px;
+            background: linear-gradient(to right, #ff105f, #ffad06);
+            color: blanchedalmond;
+        }
+
+        .navbar {
+            height: 20px;
+            margin: 25px;
+        }
+
+        .navbar a {
+            padding: 5px;
+            font-size: 25px;
+            text-decoration: none;
+            color: white;
+
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar"><a href="http://127.0.0.1:5500/index.html#">HOME</a> </div>
+    <div class="form-container">
+        <form action="#" method="post" class="form-wrap">
+            <h2>Forgot Password</h2>
+            <div class="formbox">
+                <input type="text" placeholder="Enter Email">
+            </div>
+            <div class="submit">
+                <button class="submit_btn" type="submit">Submit Here</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
